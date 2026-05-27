@@ -1,5 +1,6 @@
 import yfinance as yf
-from sqlalchemy import create_engine
+import pandas as pd
+from sqlalchemy import create_engine, text
 
 # MySQL connection details
 username = "root"
@@ -26,20 +27,35 @@ data.reset_index(inplace=True)
 
 # Rename index column
 data.rename(columns={"index": "datetime"}, inplace=True)
+data["datetime"] = data["datetime"].dt.tz_localize(None)
 
-# Save CSV
-data.to_csv("nifty_data.csv", index=False)
+# Get latest timestamp from database
+query = text("SELECT MAX(datetime) FROM nifty_prices")
 
-try:
+with engine.connect() as connection:
+    latest_timestamp = connection.execute(query).scalar()
+
+print("\nLatest timestamp in database:")
+print(latest_timestamp)
+
+# Keep only newer rows
+if latest_timestamp is not None:
+    data = data[data["datetime"] > latest_timestamp]
+
+print("\nNew rows to insert:")
+print(data)
+
+# Insert only new rows
+if not data.empty:
+
     data.to_sql(
         "nifty_prices",
         con=engine,
-        if_exists="replace",
+        if_exists="append",
         index=False
     )
 
-    print("\nData inserted into MySQL successfully!")
+    print("\nNew market data inserted successfully!")
 
-except Exception as e:
-    print("\nERROR OCCURRED:")
-    print(e)
+else:
+    print("\nNo new rows found.")
