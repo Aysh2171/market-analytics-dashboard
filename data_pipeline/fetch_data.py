@@ -1,6 +1,7 @@
 import yfinance as yf
 import pandas as pd
 from sqlalchemy import create_engine, text
+from indicators import add_indicators
 
 # MySQL connection details
 username = "root"
@@ -28,6 +29,7 @@ data.reset_index(inplace=True)
 # Rename index column
 data.rename(columns={"index": "datetime"}, inplace=True)
 data["datetime"] = data["datetime"].dt.tz_localize(None)
+data = add_indicators(data)
 
 # Get latest timestamp from database
 query = text("SELECT MAX(datetime) FROM nifty_prices")
