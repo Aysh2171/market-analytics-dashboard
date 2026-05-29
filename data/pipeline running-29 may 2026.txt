@@ -1,0 +1,992 @@
+(venv) PS E:\market-analytics-dashboard> python data_pipeline/scheduler.py                                                                              
+Scheduler started...
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-27 15:25:00
+
+New rows to insert:
+             datetime         close          high           low          open  volume  ma20  pct_change  volatility
+0 2026-05-29 09:15:00  23963.300781  23998.699219  23903.400391  23903.400391       0   NaN         NaN         NaN
+1 2026-05-29 09:20:00  23933.099609  23976.150391  23932.400391  23962.050781       0   NaN   -0.126031         NaN
+2 2026-05-29 09:25:00  23893.400391  23938.349609  23889.449219  23932.300781       0   NaN   -0.165876         NaN
+3 2026-05-29 09:30:00  23901.449219  23905.400391  23885.599609  23892.199219       0   NaN    0.033686         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 09:30:00
+
+New rows to insert:
+Empty DataFrame
+Columns: [datetime, close, high, low, open, volume, ma20, pct_change, volatility]
+Index: []
+
+No new rows found.
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 09:30:00
+
+New rows to insert:
+Empty DataFrame
+Columns: [datetime, close, high, low, open, volume, ma20, pct_change, volatility]
+Index: []
+
+No new rows found.
+Traceback (most recent call last):
+  File "E:\market-analytics-dashboard\data_pipeline\scheduler.py", line 23, in <module>
+    time.sleep(1)
+    ~~~~~~~~~~^^^
+KeyboardInterrupt
+(venv) PS E:\market-analytics-dashboard> python data_pipeline/scheduler.py
+Scheduler started...
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 09:30:00
+
+New rows to insert:
+             datetime         close          high           low          open  volume  ma20  pct_change  volatility
+4 2026-05-29 09:35:00  23921.099609  23933.849609  23898.300781  23898.650391       0   NaN    0.096242         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 09:35:00
+
+New rows to insert:
+             datetime         close     high           low          open  volume  ma20  pct_change  volatility
+5 2026-05-29 09:40:00  23877.400391  23933.0  23877.400391  23923.400391       0   NaN   -0.189151         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 09:40:00
+
+New rows to insert:
+             datetime         close          high           low          open  volume  ma20  pct_change  volatility
+6 2026-05-29 09:45:00  23906.150391  23913.599609  23871.199219  23875.800781       0   NaN    0.127327         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 09:45:00
+
+New rows to insert:
+             datetime         close          high           low          open  volume  ma20  pct_change  volatility
+7 2026-05-29 09:50:00  23915.900391  23921.699219  23904.349609  23911.199219       0   NaN    0.016311         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 09:50:00
+
+New rows to insert:
+             datetime         close          high           low          open  volume  ma20  pct_change  volatility
+8 2026-05-29 09:55:00  23902.349609  23905.099609  23887.400391  23903.849609       0   NaN   -0.007117         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 09:55:00
+
+New rows to insert:
+             datetime    close          high       low          open  volume  ma20  pct_change  volatility
+9 2026-05-29 10:00:00  23927.5  23931.349609  23894.75  23907.449219       0   NaN    0.083868         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:00:00
+
+New rows to insert:
+              datetime         close     high           low          open  volume  ma20  pct_change  volatility
+10 2026-05-29 10:05:00  23941.650391  23954.5  23928.099609  23928.199219       0   NaN    0.055169         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:05:00
+
+New rows to insert:
+              datetime    close          high           low     open  volume  ma20  pct_change  volatility
+11 2026-05-29 10:10:00  23944.0  23950.150391  23933.400391  23942.5       0   NaN    0.003345         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:10:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume  ma20  pct_change  volatility
+12 2026-05-29 10:15:00  23934.400391  23951.900391  23931.449219  23946.099609       0   NaN   -0.047185         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:15:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume  ma20  pct_change  volatility
+13 2026-05-29 10:20:00  23935.550781  23944.050781  23929.599609  23934.400391       0   NaN    0.006692         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:20:00
+
+New rows to insert:
+              datetime    close          high      low          open  volume  ma20  pct_change  volatility
+14 2026-05-29 10:25:00  23912.0  23941.550781  23912.0  23936.949219       0   NaN   -0.104025         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:25:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume  ma20  pct_change  volatility
+15 2026-05-29 10:30:00  23918.949219  23920.650391  23902.400391  23911.199219       0   NaN    0.030524         NaN
+16 2026-05-29 10:35:00  23919.300781  23919.300781  23919.300781  23919.300781       0   NaN    0.001470         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:35:00
+
+New rows to insert:
+              datetime    close     high      low     open  volume  ma20  pct_change  volatility
+17 2026-05-29 10:40:00  23916.0  23916.0  23916.0  23916.0       0   NaN   -0.002303         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:40:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume  ma20  pct_change  volatility
+18 2026-05-29 10:45:00  23896.949219  23896.949219  23896.949219  23896.949219       0   NaN   -0.015486         NaN
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:45:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+19 2026-05-29 10:50:00  23894.800781  23894.800781  23894.800781  23894.800781       0  23916.839941   -0.005852    21.62338
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:50:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+20 2026-05-29 10:55:00  23881.199219  23881.199219  23881.199219  23881.199219       0  23912.164844   -0.009216   20.762872
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 10:55:00
+
+New rows to insert:
+              datetime     close      high       low      open  volume          ma20  pct_change  volatility
+21 2026-05-29 11:00:00  23905.25  23905.25  23905.25  23905.25       0  23911.867383    0.008996   19.086961
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:00:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+22 2026-05-29 11:05:00  23906.300781  23906.300781  23906.300781  23906.300781       0  23912.692383   -0.010661   18.586344
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:05:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+23 2026-05-29 11:10:00  23911.949219  23911.949219  23911.949219  23911.949219       0  23913.484863     0.01526   18.233959
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:10:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+24 2026-05-29 11:15:00  23901.550781  23901.550781  23901.550781  23901.550781       0  23911.674902    0.019673   18.615695
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:15:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+25 2026-05-29 11:20:00  23900.050781  23900.050781  23900.050781  23900.050781       0  23913.007422   -0.016105   16.782341
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:20:00
+
+New rows to insert:
+              datetime     close      high       low      open  volume          ma20  pct_change  volatility
+26 2026-05-29 11:25:00  23902.25  23902.25  23902.25  23902.25       0  23912.664844   -0.002925   16.853775
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:25:00
+
+New rows to insert:
+              datetime    close     high      low     open  volume          ma20  pct_change  volatility
+27 2026-05-29 11:30:00  23890.5  23890.5  23890.5  23890.5       0  23911.352344    0.003973   18.072021
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:30:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+28 2026-05-29 11:35:00  23878.400391  23878.400391  23878.400391  23878.400391       0  23909.214941    0.006699    20.44708
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:35:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+29 2026-05-29 11:40:00  23885.599609  23885.599609  23885.599609  23885.599609       0  23907.489941   -0.004816   20.035402
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:40:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume        ma20  pct_change  volatility
+30 2026-05-29 11:45:00  23891.349609  23891.349609  23891.349609  23891.349609       0  23904.9125    0.022814   18.448143
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:45:00
+
+New rows to insert:
+              datetime    close     high      low     open  volume         ma20  pct_change  volatility
+31 2026-05-29 11:50:00  23896.5  23896.5  23896.5  23896.5       0  23902.53252    0.014861   15.760445
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:50:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+32 2026-05-29 11:55:00  23898.699219  23898.699219  23898.699219  23898.699219       0  23901.335059   -0.038069   13.973304
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 11:55:00
+
+New rows to insert:
+              datetime     close      high       low      open  volume          ma20  pct_change  volatility
+33 2026-05-29 12:00:00  23886.25  23886.25  23886.25  23886.25       0  23898.407617   -0.019048   11.709426
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:00:00
+
+New rows to insert:
+              datetime     close      high       low      open  volume          ma20  pct_change  volatility
+34 2026-05-29 12:05:00  23869.75  23869.75  23869.75  23869.75       0  23895.525098   -0.003142   13.984652
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:05:00
+
+New rows to insert:
+              datetime     close          high       low          open  volume          ma20  pct_change  volatility
+35 2026-05-29 12:10:00  23862.25  23867.099609  23861.25  23866.849609       0  23892.572656   -0.021579      14.915
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:10:00
+
+New rows to insert:
+              datetime         close     high           low          open  volume          ma20  pct_change  volatility
+36 2026-05-29 12:15:00  23821.300781  23836.0  23821.300781  23835.949219       0  23886.482617   -0.060407   23.288545
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:15:00
+
+New rows to insert:
+              datetime    close          high           low          open  volume          ma20  pct_change  volatility
+37 2026-05-29 12:20:00  23836.5  23839.349609  23833.150391  23838.550781       0  23884.160059   -0.010487   23.508507
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:20:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+38 2026-05-29 12:25:00  23849.650391  23851.900391  23848.099609  23849.099609       0  23882.462598    0.002309   23.448095
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:25:00
+
+New rows to insert:
+              datetime     close          high           low          open  volume          ma20  pct_change  volatility
+39 2026-05-29 12:30:00  23853.75  23856.599609  23851.949219  23856.199219       0  23881.287598   -0.008597   23.925964
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:30:00
+
+New rows to insert:
+              datetime         close          high      low          open  volume          ma20  pct_change  volatility
+40 2026-05-29 12:35:00  23843.199219  23846.400391  23841.0  23846.150391       0  23877.885059   -0.010066   25.272527
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:35:00
+
+New rows to insert:
+              datetime         close     high           low      open  volume          ma20  pct_change  volatility
+41 2026-05-29 12:40:00  23854.949219  23857.5  23851.400391  23856.25       0  23875.872559   -0.007966   23.908752
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:40:00
+
+New rows to insert:
+              datetime         close      high           low          open  volume          ma20  pct_change  volatility
+42 2026-05-29 12:45:00  23845.349609  23850.75  23845.349609  23849.849609       0  23872.472559   -0.019081   23.782533
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:45:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+43 2026-05-29 12:50:00  23844.300781  23851.849609  23844.300781  23850.699219       0  23870.137598   -0.028923   23.568307
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:50:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+44 2026-05-29 12:55:00  23831.550781  23839.449219  23831.550781  23837.349609       0  23866.232617   -0.029364   23.982517
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 12:55:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+45 2026-05-29 13:00:00  23824.150391  23838.300781  23823.949219  23837.050781       0  23862.592676   -0.056215   23.737269
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:00:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+46 2026-05-29 13:05:00  23815.349609  23818.400391  23811.400391  23818.349609       0  23858.587598   -0.012177   25.524518
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:05:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+47 2026-05-29 13:10:00  23792.949219  23802.800781  23792.949219  23798.449219       0  23853.547559   -0.022906   30.435551
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:10:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+48 2026-05-29 13:15:00  23767.849609  23769.650391  23760.400391  23769.650391       0  23846.417578   -0.005892   37.176008
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:15:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+49 2026-05-29 13:20:00  23777.400391  23782.599609  23775.199219  23780.449219       0  23841.635059   -0.013872   37.802856
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:20:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+50 2026-05-29 13:25:00  23775.900391  23779.449219  23771.650391  23772.599609       0  23835.537598    0.014304   38.899296
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:25:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume         ma20  pct_change  volatility
+51 2026-05-29 13:30:00  23782.949219  23785.550781  23774.849609  23775.349609       0  23829.27998    0.030912    36.66802
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:30:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+52 2026-05-29 13:35:00  23769.099609  23777.699219  23769.099609  23773.050781       0  23822.684961   -0.015355   36.679559
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:35:00
+
+New rows to insert:
+              datetime     close          high           low          open  volume        ma20  pct_change  volatility
+53 2026-05-29 13:40:00  23771.25  23777.800781  23767.199219  23769.349609       0  23817.7375    0.007781   36.562849
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:40:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+54 2026-05-29 13:45:00  23773.050781  23775.099609  23769.099609  23773.150391       0  23813.127539   -0.001471   35.769845
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:45:00
+
+New rows to insert:
+              datetime    close          high           low          open  volume         ma20  pct_change  volatility
+55 2026-05-29 13:50:00  23752.0  23762.449219  23751.699219  23753.900391       0  23807.99502   -0.008839   38.992944
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:50:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume         ma20  pct_change  volatility
+56 2026-05-29 13:55:00  23750.449219  23750.449219  23743.550781  23746.349609       0  23803.27002    0.018523   40.713303
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 13:55:00
+
+New rows to insert:
+              datetime         close     high           low          open  volume          ma20  pct_change  volatility
+57 2026-05-29 14:00:00  23742.900391  23759.5  23742.900391  23758.050781       0  23798.320117   -0.062085   40.935837
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:00:00
+
+New rows to insert:
+              datetime         close     high           low     open  volume          ma20  pct_change  volatility
+58 2026-05-29 14:05:00  23743.050781  23748.0  23731.699219  23747.5       0  23792.895117   -0.017264    40.09736
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:05:00
+
+New rows to insert:
+              datetime         close          high      low          open  volume          ma20  pct_change  volatility
+59 2026-05-29 14:10:00  23746.349609  23747.150391  23742.0  23744.599609       0  23787.990039    0.009056   39.298135
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:10:00
+
+New rows to insert:
+              datetime    close          high      low          open  volume          ma20  pct_change  volatility
+60 2026-05-29 14:15:00  23736.0  23745.050781  23736.0  23743.800781       0  23781.852539   -0.035584   37.495507
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:15:00
+
+New rows to insert:
+              datetime         close          high           low     open  volume          ma20  pct_change  volatility
+61 2026-05-29 14:20:00  23746.800781  23746.800781  23731.550781  23736.0       0  23776.737598    0.042129    34.57594
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:20:00
+
+New rows to insert:
+              datetime         close      high           low          open  volume          ma20  pct_change  volatility
+62 2026-05-29 14:25:00  23750.949219  23751.25  23742.800781  23749.150391       0  23771.852539    0.006735   30.097681
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:25:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume        ma20  pct_change  volatility
+63 2026-05-29 14:30:00  23774.599609  23779.099609  23759.550781  23759.550781       0  23769.1125    0.061027   25.465616
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:30:00
+
+New rows to insert:
+              datetime         close          high       low          open  volume        ma20  pct_change  volatility
+64 2026-05-29 14:35:00  23797.599609  23798.800781  23791.25  23792.650391       0  23768.0125     0.02122   21.696733
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:35:00
+
+New rows to insert:
+              datetime         close          high           low      open  volume         ma20  pct_change  volatility
+65 2026-05-29 14:40:00  23788.150391  23790.099609  23781.199219  23789.25       0  23766.10752   -0.006092   18.272746
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:40:00
+
+New rows to insert:
+              datetime         close          high           low      open  volume        ma20  pct_change  volatility
+66 2026-05-29 14:45:00  23791.050781  23795.300781  23778.050781  23786.75       0  23765.6375    0.020815   17.520943
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:45:00
+
+New rows to insert:
+              datetime         close          high           low      open  volume          ma20  pct_change  volatility
+67 2026-05-29 14:50:00  23775.800781  23787.900391  23768.300781  23785.75       0  23765.684961   -0.040564   17.274185
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:50:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+68 2026-05-29 14:55:00  23774.400391  23779.050781  23765.400391  23775.650391       0  23765.409961    -0.00925   17.068546
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 14:55:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+69 2026-05-29 15:00:00  23614.199219  23773.300781  23614.199219  23773.300781       0  23757.442383   -0.669449   37.740355
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 15:00:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume         ma20  pct_change  volatility
+70 2026-05-29 15:05:00  23539.650391  23571.150391  23539.650391  23570.599609       0  23743.40498   -0.126223    66.91166
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 15:05:00
+
+New rows to insert:
+              datetime         close      high           low          open  volume          ma20  pct_change  volatility
+71 2026-05-29 15:10:00  23521.949219  23528.75  23506.349609  23512.849609       0  23729.519922    0.039124   86.169249
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 15:10:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+72 2026-05-29 15:15:00  23542.550781  23560.800781  23525.400391  23527.199219       0  23718.514941    0.058871   94.386056
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 15:15:00
+
+New rows to insert:
+              datetime         close          high           low          open  volume          ma20  pct_change  volatility
+73 2026-05-29 15:20:00  23522.400391  23540.800781  23516.900391  23539.699219       0  23705.754883   -0.067758   103.35277
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 15:20:00
+
+New rows to insert:
+              datetime    close     high           low          open  volume          ma20  pct_change  volatility
+74 2026-05-29 15:25:00  23510.5  23510.5  23486.599609  23490.800781       0  23691.979883    0.085141  114.170267
+
+New market data inserted successfully!
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 15:25:00
+
+New rows to insert:
+Empty DataFrame
+Columns: [datetime, close, high, low, open, volume, ma20, pct_change, volatility]
+Index: []
+
+No new rows found.
+
+Running market data pipeline...
+
+[*********************100%***********************]  1 of 1 completed
+
+Latest timestamp in database:
+2026-05-29 15:25:00
+
+New rows to insert:
+Empty DataFrame
+Columns: [datetime, close, high, low, open, volume, ma20, pct_change, volatility]
+Index: []
+
+No new rows found.
