@@ -6,6 +6,18 @@ The project fetches intraday market data, performs analytical processing, stores
 
 ---
 
+## Project Highlights
+
+* End-to-end automated analytics pipeline
+* Incremental data ingestion with duplicate prevention
+* MySQL-backed market data storage
+* Multi-page Power BI reporting solution
+* Scheduler-based automated updates
+* Executive dashboard for market monitoring
+
+
+---
+
 # Features
 
 - Automated market data fetching using Yahoo Finance API
@@ -213,4 +225,36 @@ Refresh the dataset to visualize updated market analytics.
 
 # Screenshots
 
-Screenshots will be added soon.
+## Executive Dashboard
+
+![Executive Dashboard](screenshots/executive_dashboard.png)
+
+---
+
+## Market Overview
+
+![Market Overview](screenshots/market_overview.png)
+
+---
+
+## Trend Analytics
+
+![Trend Analytics](screenshots/trend_analytics.png)
+
+---
+
+## Volatility Analysis
+
+![Volatility Analysis](screenshots/volatility_analysis.png)
+
+---
+
+## Performance Metrics
+
+![Performance Metrics](screenshots/performance_metrics.png)
+
+---
+
+## Automated Data Pipeline
+
+![Automated Pipeline](screenshots/automated_pipeline.png)

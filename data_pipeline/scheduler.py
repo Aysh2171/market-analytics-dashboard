@@ -11,7 +11,7 @@ def job():
     )
 
 # Run every 5 minutes
-schedule.every(1).minutes.do(job)
+schedule.every(5).minutes.do(job)
 
 print("Scheduler started...")
 
